@@ -1,0 +1,121 @@
+============================================================================================
+Student #12 | PRITHIYANKA SHREE M | 192521144HC
+============================================================================================
+[1] QID: 3
+Question : A program attempts to print the length of a string but results in a runtime excep
+tion. Analyze the issue and modify the code to handle it properly.
+public class Q2_NullPointer {
+public static void main(String[] args) {
+String str = null;
+if(str != null)
+System.out.println(str.length());
+else
+System.out.println("String is null");
+}
+}
+
+Program : import java.util.*;
+class Q2_NullPointer
+{
+public static void main(String args[])
+{
+String str="null";
+if(str!=null)
+{
+System.out.println(str.length());
+}
+else
+{
+System.out.println("string is null");
+}
+}
+}
+Input : (no input)
+Output : 4
+
+First Save: 2026-06-23 13:47:49
+Last Save : 2026-06-23 13:48:14
+----------------------------------------------------------------------------------------
+[2] QID: 23
+Question : A method is intended to return the sum of two numbers but fails to compile. Ident
+ify and correct the issue.
+public class Q23_Method {
+public static int sum(int a, int b){
+return a + b;
+}
+public static void main(String[] args) {
+System.out.println(sum(5,3));
+}
+}
+
+Program : import java.util.*;
+class Q23_Method
+{
+public static int sum(int a,int b)
+{
+
+Submitted Answers Report
+return a+b;
+}
+public static void main(String args[])
+{
+System.out.println(sum(5,3));
+}
+}
+Input : (no input)
+Output : 8
+
+First Save: 2026-06-23 13:38:53
+Last Save : 2026-06-23 13:52:24
+----------------------------------------------------------------------------------------
+[3] QID: 21
+Question : A string replace operation does not change the original string. Identify the issu
+e and correct it.
+public class Q21_Replace {
+public static void main(String[] args) {
+String str = "Java";
+str = str.replace("a", "o");
+System.out.println(str);
+}
+}
+
+Program : import java.util.*;
+class Q21_Replace
+{
+public static void main(String args[])
+{
+String str="Java";
+str=str.replace(’a’,’o’);
+System.out.println(str);
+}
+}
+Input : (no input)
+Output : Jovo
+
+First Save: 2026-06-23 13:34:20
+Last Save : 2026-06-23 13:53:28
+----------------------------------------------------------------------------------------
+[4] QID: 17
+Question : A loop attempts to access characters beyond the string length, causing an excepti
+on. Fix the boundary condition.
+public class Q17_Boundary {
+public static void main(String[] args) {
+String str = "Java";
+for(int i=0;i
+Program : import java.util.*;
+class Q17_Boundry
+{
+public static void main(String args[])
+
+Submitted Answers Report
+{
+String str="Java";
+for(int i=0;i
+Input : (no input)
+Output : J
+a
+v
+a
+
+First Save: 2026-06-23 13:30:40
+Last Save : 2026-06-23 13:32:04
